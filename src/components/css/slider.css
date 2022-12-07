@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+}
+.hea{
+    margin-top: 20px;
+    text-align:left;
+    font-size:2rem;
+    color:rgb(30, 30, 248);
+}
+.cards::-webkit-scrollbar{
+    display:none;
+}
+.cards::-webkit-track{
+    background:white;
+}
+
+
+.cards{
+    display: flex;
+    width:100vw;
+    padding:0px 20px;
+    overflow-x:scroll;
+    justify-content: space-between;
+    /* filter: drop-shadow(2px 2px 5x); */
+  }
+  .card{
+    width:15vw;
+    max-height: 55vh;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px #000;
+  }
+  .card img{
+    width: 15vw;
+  }
+
+  .productname{
+    font-size: 2rem;
+    font-weight: 900;
+    color:rgb(30, 30, 248);
+  }
+
+  .price{
+    color:rgb(235, 91, 13);
+    font-size: 1.5rem;
+    -webkit-text-stroke: 1px rgb(60, 60, 239);
+  }
