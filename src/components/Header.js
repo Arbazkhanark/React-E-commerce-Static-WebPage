@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <nav className='navbar'>
         <div className="logo">
-            <h3 className="logo-h">OTAKU-SHOP</h3>
+            <h3 className="logo-h">OTAKU-STORE</h3>
         </div>
 
         <ul className="classlists">
